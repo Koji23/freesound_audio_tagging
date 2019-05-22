@@ -1,10 +1,19 @@
-## Random Forest
+## Getting Started
+
+Create a data/ directory
+Install kaggle CLI through pip
+Inside that directory run ```kaggle competitions download -c freesound-audio-tagging-2019```
+Or download directly through https://www.kaggle.com/c/freesound-audio-tagging-2019/data
+
+## Models
+
+### Random Forest
 
 /benchmark/
 Curated data with Raw Audio - /benchmark_curated.ipynb
 Noisy data with Raw Audio - /benchmark_noisy.ipynb
 
-## Convolutional Neural Net
+### Convolutional Neural Net
 
 /explore_curated/
 Curated data with Raw Audio and MFCC - /explore_curated.ipynb
